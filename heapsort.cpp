@@ -1,10 +1,10 @@
 #include<iostream>
-using namespace std;
+using namespace std;				
 int hs,n;
 void maxheapify(int a[],int i)
 {
 	int l,r,largest;
-	l=2*i;
+	l=2*i;								//display each iteration
 	r=2*i+1;
 	if(l<=hs&&a[l]>a[i])
 		largest=l;
