@@ -54,6 +54,6 @@ int main()
 	for(int i=1;i<=n;i++)
 	  cin>>a[i];
 	int result=fms(a,1,n);
-	cout<<"Result= "<<result<<"\n";
+	cout<<"Maximum Sub Array Value= "<<result<<"\n";
 	return 0;
 }
