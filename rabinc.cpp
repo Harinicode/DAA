@@ -45,6 +45,6 @@ int main()
                   t0+=q;
                                                                      //t[s-1]
             }
-    }
+    } 
     return 0; 
  }
